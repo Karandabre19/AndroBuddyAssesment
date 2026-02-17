@@ -1,0 +1,22 @@
+.buttonContainer {
+    color: var(--secondary-color);
+    padding: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border-radius: 0.7rem;
+    background: #54B226;
+
+    svg{
+        color: white;
+    }
+
+    .slogan{
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+}
